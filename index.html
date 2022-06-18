@@ -14,14 +14,20 @@
     <form id="survey-form">
 
       <label for="name" id="name-label">Enter name</label>
-      <input id="name" type="text" value="Raymond" required />
+      <input id="name" type="text" value="Raymond" placeholder="Enter your Name"required />
 
       <label for="email" id="email-label">Enter email</label>
-      <input type="email" id="email" required />
+      <input type="email" id="email" placeholder="Email"required />
 
       <label for="number" id="number-label">Enter number</label>
-      <input id="number" type="number" min="1" max="99" />
+      <input id="number" type="number" min="1" max="99" placeholder="Number" />
+
+      <select id="dropdown" name="activities">
+        <option value="Occupation">What is your occupation?</option>
+        <option value="Hobbies">What do you love doing?</option>
+      </select>
     </form>
+
     <!--
 
     Hello Camper!
