@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <h1 id="title">
-      TITLE
-    </h1>
+    <h1 id="title">TITLE</h1>
     <p id="description">This is our project for microverse ....</p>
-    <form id= "survey-form" >
+    <form id="survey-form">
 
-      <input id="name" type="text" value="Raymond" required/>
-      <input type="email" id="email" required>
-      <input id="number" type= "number"
+      <label for="name" id="name-label">Enter name</label>
+      <input id="name" type="text" value="Raymond" required />
+
+      <label for="email" id="email-label">Enter email</label>
+      <input type="email" id="email" required />
+
+      <label for="number" id="number-label">Enter number</label>
+      <input id="number" type="number" min="1" max="99" />
     </form>
     <!--
 
@@ -31,6 +34,6 @@
     - The freeCodeCamp Team
 
     -->
-    <script  src="js/index.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
